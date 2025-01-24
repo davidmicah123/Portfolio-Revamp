@@ -1,0 +1,69 @@
+.associate_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+.associate_section h2{
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #075d77;
+}
+
+
+.asscoiate_logo_wrapper{
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.7rem;
+}
+.asscoiate_logo_wrapper img{
+    width: 13rem;
+}
+
+
+
+@media (max-width: 1070px) {
+    .asscoiate_logo_wrapper img{
+        width: 11rem;
+    }
+}
+
+@media (max-width: 1040px) {
+    .asscoiate_logo_wrapper img{
+        width: 10rem;
+    }
+}
+
+@media (max-width: 840px) {
+    .asscoiate_logo_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .asscoiate_logo_wrapper img{
+        width: 14rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .asscoiate_logo_wrapper img{
+        width: 13rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .asscoiate_logo_wrapper img{
+        width: 12rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .asscoiate_logo_wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .asscoiate_logo_wrapper img{
+        width: 13rem;
+    }
+}

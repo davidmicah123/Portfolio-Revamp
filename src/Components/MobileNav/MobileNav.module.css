@@ -1,0 +1,42 @@
+.mobile_nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(226, 224, 224, 0.849);
+    backdrop-filter: blur(3px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000000000;
+}
+
+.mobile_nav_contant_wrapper{
+    text-align: center;
+}
+.logo{
+    color: #075d77;
+}
+.mobile_nav_list{
+    list-style: none;
+    margin-top: 1rem;
+}
+.mobile_nav_list a{
+    text-decoration: none;
+    color: black;
+    line-height: 2.5;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.nav_closer{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+.nav_closer ion-icon{
+    font-size: 2.2rem;
+}

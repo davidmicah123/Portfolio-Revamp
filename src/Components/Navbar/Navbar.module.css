@@ -1,0 +1,67 @@
+.nav_content_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    margin: auto;
+    padding: 1.5rem 0;
+    align-items: center;
+    padding-right: 7.6rem;
+}
+.nav_list{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav_list a{
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    /* font-family: "Dancing Script", cursive;
+    font-weight: 900; */
+    color: #075d77;
+}
+
+.mobile_nav_toogler{
+    display: none;
+}
+.mobile_nav_toogler ion-icon{
+    font-size: 2rem;
+}
+
+
+@media (max-width: 1070px) {
+    .nav_content_wrapper{
+        padding-right: 4rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .nav_content_wrapper{
+        padding-right: 2rem;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .nav_content_wrapper{
+        width: 90vw;
+    }
+}
+
+@media (max-width: 820px) {
+    .nav_list{
+        display: none;
+    }
+    .mobile_nav_toogler{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav_content_wrapper{
+        padding-right: 0;
+    }
+}

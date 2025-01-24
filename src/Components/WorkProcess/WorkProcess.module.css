@@ -1,0 +1,146 @@
+.work_process{
+    padding: 4rem 0;
+    margin-top: 2rem;
+    background-color: rgb(245, 243, 243);
+}
+.work_process_content_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85vw;
+    gap: 2rem;
+    margin: auto;
+    align-items: center;
+}
+
+.work_process_diff1{
+    width: 75%;
+}
+.work_process_diff1 p{
+    font-size: 1.06rem;
+    line-height: 1.7;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+
+.process_cards_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.process_card{
+    padding: 1.5rem 1.2rem;
+    box-shadow: 0 4px 8px rgb(192, 192, 192);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.process_card p{
+    line-height: 1.7;
+}
+.process_card ion-icon{
+    font-size: 1.7rem;
+    padding: 1rem;
+    background-color: #075d77;
+    border-radius: 0.3rem;
+    color: white;
+}
+
+
+@media (max-width: 1170px) {
+    .work_process_content_wrapper{
+        width: 90vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .work_process_content_wrapper{
+        gap: 0rem;
+    }
+    .work_process_diff1{
+        width: 85%;
+    }
+}
+
+@media (max-width: 1015px) {
+    .work_process_content_wrapper{
+        width: 60vw;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .work_process_diff1{
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .work_process_content_wrapper{
+        width: 70vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .work_process_content_wrapper{
+        width: 75vw;
+    }
+}
+
+@media (max-width: 655px) {
+    .work_process_content_wrapper{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 620px) {
+    .work_process_content_wrapper{
+        width: 85vw;
+    }
+}
+
+@media (max-width: 580px) {
+    .work_process_content_wrapper{
+        width: 67vw;
+    }
+    .process_cards_wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .work_process_content_wrapper{
+        width: 75vw;
+    }
+
+    .work_process_diff1 h1{
+        color: #075d77;
+    }
+    .work_process_diff1{
+        text-align: center;
+    }
+    .process_card{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .work_process_content_wrapper{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .work_process_content_wrapper{
+        width: 85vw;
+    }
+}

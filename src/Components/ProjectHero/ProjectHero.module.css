@@ -1,0 +1,30 @@
+.project_hero{
+    background-image: url(../../Assets/Images/hhh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 57vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_header{
+    color: white;
+}
+
+
+
+@media (max-width: 990px) {
+    .project_hero{
+        height: 45vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .project_hero{
+        height: 40vh;
+    }
+}

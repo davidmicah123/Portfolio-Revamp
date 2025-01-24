@@ -1,0 +1,85 @@
+.associate_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+.associate_section h2{
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #075d77;
+}
+
+
+.asscoiate_logo_wrapper{
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.7rem;
+}
+.asscoiate_logo_wrapper img{
+    width: 14rem;
+    height: 5rem;
+    border-radius: 0.3rem;
+}
+
+
+@media (max-width: 1160px) {
+    .asscoiate_logo_wrapper{
+        /* width: 70vw; */
+    }
+    .asscoiate_logo_wrapper img{
+        width: 11rem;
+        height: 4rem;
+    }
+}
+
+
+@media (max-width: 930px) {
+    .asscoiate_logo_wrapper img{
+        width: 9rem;
+        height: 3.5rem;
+    }
+}
+
+@media (max-width: 970px) {
+    .asscoiate_logo_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+    .asscoiate_logo_wrapper img{
+        width: 13rem;
+        height: 4rem;
+    }
+}
+
+@media (max-width: 610px) {
+    .asscoiate_logo_wrapper img{
+        width: 11rem;
+        height: 3.8rem;
+    }
+}
+
+@media (max-width: 610px) {
+    .asscoiate_logo_wrapper img{
+        width: 9rem;
+        height: 3.2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .associate_section h2{
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    .asscoiate_logo_wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1rem;
+    }
+    .asscoiate_logo_wrapper img{
+        width: 9rem;
+        height: 3.2rem;
+    }
+}
