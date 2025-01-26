@@ -14,11 +14,12 @@
     align-items: center;
 }
 .footer_main_txt{
-    width: 55%;
+    width: 60%;
 }
 .footer_main_txt p{
-    line-height: 2;
+    line-height: 2.5;
     margin-top: 0.3rem;
+    font-size: 1rem;
 }
 .footer_main ul li{
     line-height: 1.8;
@@ -31,12 +32,19 @@
     font-size: 1.1rem;
 }
 
+.page_links{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
 
 .social_links_wrapper li{ 
     display: flex;
     gap: 0.5rem;
     align-items: center;
+    /* justify-content: center; */
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .social_links_wrapper li ion-icon{

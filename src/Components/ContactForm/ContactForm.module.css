@@ -49,7 +49,7 @@
     padding: 0.8rem;
     border: none;
     outline: none;
-    background-color: black;
+    background-color: #075d77;
     color: white;
     font-size: 0.9rem;
     border-radius: 0.3rem;
@@ -86,6 +86,17 @@
 .details li{
     display: flex;
     align-items: center;
+    font-weight: bold;
+}
+
+.details li p{
+    color: #075d77;
+    font-weight: bold;
+}
+.details li a{
+    color: #075d77;
+    font-weight: bold;
+    text-decoration: none;
 }
 .details ion-icon{
     font-size: 1.5rem;

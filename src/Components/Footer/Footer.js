@@ -9,13 +9,13 @@ const Footer = () => {
           <div className={classes.footer_main_txt}>
             <h2>David Micah-Daniels</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex,
-              incidunt! Quod neque natus praesentium aperiam, voluptatibus
-              aliquam incidunt perspiciatis molestiae.
+              I am a frontend developer with 3+ years of experience delivering
+              web projects, combining technical expertise in web and software
+              development with strong team collaboration skills.
             </p>
           </div>
 
-          <ul>
+          <ul className={classes.page_links}>
             <li>Home</li>
             <li>About</li>
             <li>Project</li>

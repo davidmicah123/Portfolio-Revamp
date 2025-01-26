@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from "./ContactForm.module.css"
+import { Link } from 'react-router-dom';
 
 const ContactForm = () => {
   return (
@@ -36,6 +37,38 @@ const ContactForm = () => {
             <li>
               <ul className={classes.details}>
                 <li>
+                  <ion-icon name="logo-twitter"></ion-icon>
+                  <Link to="https://x.com/Davidmicdan_" target="blank">
+                    <p>Davidmicdan_</p>
+                  </Link>
+                </li>
+                <li>
+                  <ion-icon name="logo-github"></ion-icon>
+                  <Link to="https://github.com/davidmicah123" target="blank">
+                    <p>davidmicah123</p>
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul className={classes.details}>
+                <li>
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                  <Link to="https://wa.link/utqwmz" target="blank">
+                    <p>+234 703 532 6207</p>
+                  </Link>
+                </li>
+                <li>
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                  <Link to="https://wa.link/teqlws" target="blank">
+                    <p>+234 913 185 8421</p>
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul className={classes.details}>
+                <li>
                   <ion-icon name="location-outline"></ion-icon>
                   <p>NO 2 Ojokondo Street</p>
                 </li>
@@ -48,36 +81,18 @@ const ContactForm = () => {
             <li>
               <ul className={classes.details}>
                 <li>
-                  <ion-icon name="logo-whatsapp"></ion-icon>
-                  <p>+234 703 532 6207</p>
-                </li>
-                <li>
-                  <ion-icon name="logo-whatsapp"></ion-icon>
-                  <p>+234 913 185 8421</p>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul className={classes.details}>
-                <li>
                   <ion-icon name="mail-outline"></ion-icon>
-                  <p>micahdanielsd@gmail.com</p>
+                  <Link to="mailto:micahdanielsd@gmail.com">
+                    <p>micahdanielsd@gmail.com</p>
+                  </Link>
                 </li>
                 <li>
                   <ion-icon name="mail-outline"></ion-icon>
-                  <p>micahdanielsdavid2007@gmail.com</p>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul className={classes.details}>
-                <li>
-                  <ion-icon name="logo-twitter"></ion-icon>
-                  <p>Davidmicdan_</p>
-                </li>
-                <li>
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                  <p>davidmicahdaniels</p>
+                  <Link
+                    to="mailto:micahdanielsdavid2007@gmail.com"
+                  >
+                    <p>micahdanielsdavid2007@gmail.com</p>
+                  </Link>
                 </li>
               </ul>
             </li>
