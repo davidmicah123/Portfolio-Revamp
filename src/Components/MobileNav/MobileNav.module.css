@@ -19,6 +19,7 @@
 }
 .logo{
     color: #075d77;
+    font-size: 1.9rem;
 }
 .mobile_nav_list{
     list-style: none;
@@ -39,4 +40,8 @@
 }
 .nav_closer ion-icon{
     font-size: 2.2rem;
+}
+
+.mobile_nav a{
+    text-decoration: none;
 }

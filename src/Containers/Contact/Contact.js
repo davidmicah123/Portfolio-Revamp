@@ -9,7 +9,6 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      {/* <MobileNav /> */}
       <ContactHero />
       <ContactForm />
       <Footer />

@@ -1,8 +1,19 @@
-import React from 'react'
-import classes from "./Navbar.module.css"
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import classes from "./Navbar.module.css";
+import { Link } from "react-router-dom";
+import MobileNav from "../../Components/MobileNav/MobileNav";
 
 const Navbar = () => {
+  const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
+
+  const toggleMobileNav = () => {
+    setIsMobileNavVisible(!isMobileNavVisible);
+  };
+
+  const closeMobileNav = () => {
+    setIsMobileNavVisible(false);
+  };
+
   return (
     <nav className={classes.navbar}>
       <div className={classes.nav_content_wrapper}>
@@ -22,12 +33,14 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div className={classes.mobile_nav_toogler}>
+        <div className={classes.mobile_nav_toogler} onClick={toggleMobileNav}>
           <ion-icon name="menu-outline"></ion-icon>
         </div>
+
+        {isMobileNavVisible && <MobileNav closeNav={closeMobileNav} />}
       </div>
     </nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
