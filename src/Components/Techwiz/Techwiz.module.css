@@ -176,6 +176,14 @@
     }
 }
 
+
+@media (max-width: 400px) {
+    .text_content_wrapper div p{
+        line-height: 1.7;
+        font-size: 0.95rem;
+    }
+}
+
 @media (max-width: 370px) {
     .techwiz_content_wrapper{
         width: 90vw;
@@ -184,3 +192,4 @@
         height: 27vh;
     }
 }
+

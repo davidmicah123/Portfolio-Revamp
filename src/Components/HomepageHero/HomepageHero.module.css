@@ -227,3 +227,13 @@
         width: 80%;
     }
 }
+
+@media (max-width: 400px) {
+    .hero_description{
+        line-height: 1.7;
+        font-size: 1.05rem;
+    }
+    .hero_img_Wrapper{
+        height: 43vh;
+    }
+}

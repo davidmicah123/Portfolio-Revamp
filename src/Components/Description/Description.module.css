@@ -127,3 +127,12 @@
         height: 47vh;
     }
 }
+
+@media (max-width: 400px) {
+    .img_wrapper{
+        height: 43vh;
+    }
+    .description_content_wrapper p{
+        line-height: 1.7;
+    }
+}

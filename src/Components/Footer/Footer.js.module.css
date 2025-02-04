@@ -90,6 +90,15 @@
     .footer_main_txt{
         width: 75%;
     }
+    .page_links{
+        font-weight: normal;
+    }
+    .social_links_wrapper li p{
+        font-weight: normal;
+    }
+    .footer_base p{
+        font-weight: normal;
+    }
 }
 
 @media (max-width: 500px) {
@@ -101,5 +110,18 @@
 @media (max-width: 465px) {
     .footer_main_txt{
         width: 95%;
+    }
+}
+
+
+@media (max-width: 385px) {
+    .footer_main{
+        width: 90vw;
+    }
+    .footer_main_txt p{
+        line-height: 2.1;
+    }
+    .footer_base{
+        font-size: 1rem;
     }
 }

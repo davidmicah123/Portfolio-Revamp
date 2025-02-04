@@ -17,7 +17,9 @@ const Navbar = () => {
   return (
     <nav className={classes.navbar}>
       <div className={classes.nav_content_wrapper}>
-        <h1 className={classes.logo}>DMD</h1>
+        <Link to="/">
+          <h1 className={classes.logo}>DMD</h1>
+        </Link>
         <ul className={classes.nav_list}>
           <li>
             <Link to="/">Home</Link>
