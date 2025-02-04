@@ -4,7 +4,7 @@ import user_img from "../../Assets/Images/me - Copy.jpg"
 
 const Description = () => {
   return (
-    <section className={classes.description}>
+    <section className={classes.description} id="about">
       <div className={classes.description_container}>
         <div className={classes.img_wrapper}>
           <img src={user_img} alt="" className={classes.img} />

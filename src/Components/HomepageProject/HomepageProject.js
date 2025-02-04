@@ -2,6 +2,8 @@ import React from 'react'
 import classes from "./HomepageProject.module.css"
 import project_img from "../../Assets/Images/project_img.png"
 import { Link } from 'react-router-dom';
+import soccerverse from "../../Assets/Images/soccerverse-screenshot.png";
+import travelsmart from "../../Assets/Images/travelsmart-screenshot.png";
 
 const HomepageProject = () => {
   return (
@@ -12,14 +14,15 @@ const HomepageProject = () => {
       <div className={classes.project_card_wrapper}>
         <div className={classes.project_card}>
           <div className={classes.project_img_wrapper}>
-            <img src={project_img} alt="" className={classes.project_img} />
+            <img src={travelsmart} alt="" className={classes.project_img} />
           </div>
           <div className={classes.project_description_area}>
+            <h3>TravelSmart</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas at
-              distinctio facilis nam, possimus eaque, facere similique atque
-              nemo quo magnam. Molestias ad, eaque neque accusantium illum aut
-              labore eveniet!
+              An travel website developed by "Team VertexCoders" which i was the
+              TeamLead for Aptech's Techwiz 5 hackathon. The project was
+              completed within 72 hours of concentrated coding. We Emerged 1st
+              in the website design and development category.
             </p>
             <div className={classes.action_btn_wrapper}>
               <button className={classes.custom_btn}>Preview</button>
@@ -29,14 +32,15 @@ const HomepageProject = () => {
         </div>
         <div className={classes.project_card}>
           <div className={classes.project_img_wrapper}>
-            <img src={project_img} alt="" className={classes.project_img} />
+            <img src={soccerverse} alt="" className={classes.project_img} />
           </div>
           <div className={classes.project_description_area}>
+            <h3>SoccerVerse</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas at
-              distinctio facilis nam, possimus eaque, facere similique atque
-              nemo quo magnam. Molestias ad, eaque neque accusantium illum aut
-              labore eveniet!
+              I was a member of "Team Emerald" for Aptech Techwiz 4 hackathon,
+              we developed Soccerverse within 72 hours from planning to
+              deployment stage and we emerged top 5 in the Website design and
+              development category
             </p>
             <div className={classes.action_btn_wrapper}>
               <button className={classes.custom_btn}>Preview</button>
@@ -83,12 +87,12 @@ const HomepageProject = () => {
         </div>
       </div>
 
-        <Link to="/projects">
-            <div className={classes.project_action_area}>
-                <p>See all projects</p>
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-            </div>
-        </Link>
+      <Link to="/projects">
+        <div className={classes.project_action_area}>
+          <p>See all projects</p>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </div>
+      </Link>
     </section>
   );
 }

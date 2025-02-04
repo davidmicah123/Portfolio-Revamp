@@ -14,6 +14,9 @@
     font-size: 1.2rem;
     font-weight: bold;
 }
+.nav_content_wrapper a{
+    text-decoration: none;
+}
 .nav_list a{
     color: black;
     text-decoration: none;
