@@ -2,6 +2,7 @@ import React from 'react'
 import classes from "./ProjectMain.module.css";
 import project_img from "../../Assets/Images/project_img.png"
 import huddle from "../../Assets/Images/huddle_webpage.png"
+import { Link } from 'react-router-dom';
 
 const ProjectMain = () => {
   return (
@@ -29,8 +30,12 @@ const ProjectMain = () => {
               labore eveniet!
             </p>
             <div className={classes.action_btn_wrapper}>
-              <button className={classes.custom_btn}>Preview</button>
-              <button className={classes.custom_btn}>View Docs</button>
+              <Link to="">
+                <button className={classes.custom_btn}>Preview</button>
+              </Link>
+              <Link to="">
+                <button className={classes.custom_btn}>View Docs</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -46,8 +51,12 @@ const ProjectMain = () => {
               labore eveniet!
             </p>
             <div className={classes.action_btn_wrapper}>
-              <button className={classes.custom_btn}>Preview</button>
-              <button className={classes.custom_btn}>View Docs</button>
+              <Link to="">
+                <button className={classes.custom_btn}>Preview</button>
+              </Link>
+              <Link to="">
+                <button className={classes.custom_btn}>View Docs</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -63,8 +72,12 @@ const ProjectMain = () => {
               labore eveniet!
             </p>
             <div className={classes.action_btn_wrapper}>
-              <button className={classes.custom_btn}>Preview</button>
-              <button className={classes.custom_btn}>View Docs</button>
+              <Link to="">
+                <button className={classes.custom_btn}>Preview</button>
+              </Link>
+              <Link to="">
+                <button className={classes.custom_btn}>View Docs</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -80,8 +93,12 @@ const ProjectMain = () => {
               labore eveniet!
             </p>
             <div className={classes.action_btn_wrapper}>
-              <button className={classes.custom_btn}>Preview</button>
-              <button className={classes.custom_btn}>View Docs</button>
+              <Link to="">
+                <button className={classes.custom_btn}>Preview</button>
+              </Link>
+              <Link to="">
+                <button className={classes.custom_btn}>View Docs</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -97,8 +114,12 @@ const ProjectMain = () => {
               labore eveniet!
             </p>
             <div className={classes.action_btn_wrapper}>
-              <button className={classes.custom_btn}>Preview</button>
-              <button className={classes.custom_btn}>View Docs</button>
+              <Link to="">
+                <button className={classes.custom_btn}>Preview</button>
+              </Link>
+              <Link to="">
+                <button className={classes.custom_btn}>View Docs</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -114,8 +135,12 @@ const ProjectMain = () => {
               labore eveniet!
             </p>
             <div className={classes.action_btn_wrapper}>
-              <button className={classes.custom_btn}>Preview</button>
-              <button className={classes.custom_btn}>View Docs</button>
+              <Link to="">
+                <button className={classes.custom_btn}>Preview</button>
+              </Link>
+              <Link to="">
+                <button className={classes.custom_btn}>View Docs</button>
+              </Link>
             </div>
           </div>
         </div>
