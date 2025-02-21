@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from "./ProjectMain.module.css";
 import project_img from "../../Assets/Images/project_img.png"
+import huddle from "../../Assets/Images/huddle_webpage.png"
 
 const ProjectMain = () => {
   return (
@@ -17,9 +18,10 @@ const ProjectMain = () => {
       <div className={classes.project_Card_wrapper}>
         <div className={classes.project_card}>
           <div className={classes.project_img_wrapper}>
-            <img src={project_img} alt="" className={classes.project_img} />
+            <img src={huddle} alt="" className={classes.project_img} />
           </div>
           <div className={classes.project_description_area}>
+            <h1>Huddle Project</h1>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas at
               distinctio facilis nam, possimus eaque, facere similique atque
