@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from "./Associate.module.css"
-import soccerverse from "../../Assets/Images/soccerverse.png"
+// import soccerverse from "../../Assets/Images/soccerverse.png"
 import travelsmart from "../../Assets/Images/travelsmart.png"
 import foodmania from "../../Assets/Images/foodmania.png"
 import huddle from "../../Assets/Images/huddle.png";

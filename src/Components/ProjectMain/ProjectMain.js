@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 import classes from "./ProjectMain.module.css";
-import project_img from "../../Assets/Images/project_img.png"
-import huddle from "../../Assets/Images/huddle_webpage.png"
-import { Link } from 'react-router-dom';
+import project_img from "../../Assets/Images/project_img.png";
+import huddle from "../../Assets/Images/huddle_webpage.png";
+import { Link } from "react-router-dom";
 
 const ProjectMain = () => {
   return (
@@ -24,7 +24,9 @@ const ProjectMain = () => {
           <div className={classes.project_description_area}>
             <h1>Huddle Project</h1>
             <p>
-              A practice project I built in 2022 to practice HTML and CSS and just my knoledge of css styling and positioning, A sinle page website to practice, I completed it in few hours.
+              A practice project I built in 2022 to practice HTML and CSS and
+              just my knoledge of css styling and positioning, A sinle page
+              website to practice, I completed it in few hours. 
             </p>
             <div className={classes.action_btn_wrapper}>
               <Link
@@ -161,6 +163,6 @@ const ProjectMain = () => {
       </div>
     </section>
   );
-}
+};
 
 export default ProjectMain;
