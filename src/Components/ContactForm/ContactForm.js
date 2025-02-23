@@ -32,7 +32,7 @@ const ContactForm = () => {
           <button>Send Message</button>
         </form>
         <div className={classes.details_box}>
-          <h2 className={classes.contact_details_header}>My Contact Details</h2>
+          <h2 className={classes.contact_details_header}>My Contact Details:</h2>
           <ul className={classes.contact_details_list}>
             <li>
               <ul className={classes.details}>
