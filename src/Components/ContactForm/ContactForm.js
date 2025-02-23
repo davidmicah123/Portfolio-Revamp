@@ -32,7 +32,9 @@ const ContactForm = () => {
           <button>Send Message</button>
         </form>
         <div className={classes.details_box}>
-          <h2 className={classes.contact_details_header}>My Contact Details:</h2>
+          <h2 className={classes.contact_details_header}>
+            My Contact Details:
+          </h2>
           <ul className={classes.contact_details_list}>
             <li>
               <ul className={classes.details}>
@@ -43,7 +45,7 @@ const ContactForm = () => {
                   </Link>
                 </li>
                 <li>
-                  <ion-icon name="logo-github"></ion-icon>
+                  <ion-icon name="logo-linkedin"></ion-icon>
                   <Link to="https://github.com/davidmicah123" target="blank">
                     <p>David Micah-Daniels</p>
                   </Link>
@@ -94,9 +96,7 @@ const ContactForm = () => {
                 </li>
                 <li>
                   <ion-icon name="mail-outline"></ion-icon>
-                  <Link
-                    to="mailto:micahdanielsdavid2007@gmail.com"
-                  >
+                  <Link to="mailto:micahdanielsdavid2007@gmail.com">
                     <p>micahdanielsdavid2007@gmail.com</p>
                   </Link>
                 </li>
