@@ -26,7 +26,7 @@ const ContactForm = () => {
             <textarea
               name=""
               id=""
-              placeholder="Enter your message here..."
+              placeholder="Type your message here..."
             ></textarea>
           </div>
           <button>Send Message</button>
