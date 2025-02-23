@@ -15,11 +15,11 @@ const ContactForm = () => {
           </div>
           <div className={classes.input_box}>
             <label for="">Message Title:</label>
-            <input type="text" name="" placeholder="Enter your fullname" />
+            <input type="text" name="" placeholder="Enter your Message title" />
           </div>
           <div className={classes.input_box}>
             <label for="">Email Address:</label>
-            <input type="text" name="" placeholder="Enter your fullname" />
+            <input type="text" name="" placeholder="Enter your address" />
           </div>
           <div className={classes.input_box}>
             <label for="">Message:</label>
