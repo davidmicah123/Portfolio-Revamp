@@ -63,7 +63,7 @@ const ContactForm = () => {
                 <li>
                   <ion-icon name="logo-whatsapp"></ion-icon>
                   <Link to="https://wa.link/utqwmz" target="blank">
-                    <p>+234 703 532 6207</p>
+                    <p>+234 703-532-6207</p>
                   </Link>
                 </li>
                 <li>
