@@ -45,6 +45,12 @@ const ContactForm = () => {
                 <li>
                   <ion-icon name="logo-github"></ion-icon>
                   <Link to="https://github.com/davidmicah123" target="blank">
+                    <p>David Micah-Daniels</p>
+                  </Link>
+                </li>
+                <li>
+                  <ion-icon name="logo-github"></ion-icon>
+                  <Link to="https://github.com/davidmicah123" target="blank">
                     <p>davidmicah123</p>
                   </Link>
                 </li>
