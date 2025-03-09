@@ -57,13 +57,13 @@ const ProjectMain = () => {
             </p>
             <div className={classes.action_btn_wrapper}>
               <Link
-                to="https://davidmicah123.github.io/Huddle-Project/"
+                to="https://emerald-techwiz-project.netlify.app/"
                 target="_blank"
               >
                 <button className={classes.custom_btn}>Preview</button>
               </Link>
               <Link
-                to="https://github.com/davidmicah123/Huddle-Project"
+                to="https://emerald-techwiz-project.netlify.app/"
                 target="_blank"
               >
                 <button className={classes.custom_btn}>View Docs</button>
@@ -110,13 +110,10 @@ const ProjectMain = () => {
               website to practice, I completed it in few hours.
             </p>
             <div className={classes.action_btn_wrapper}>
-              <Link
-                to="https://davidmicah123.github.io/Huddle-Project/"
-                target="_blank"
-              >
+              <Link to="https://techpath-insights.netlify.app/" target="_blank">
                 <button className={classes.custom_btn}>Preview</button>
               </Link>
-              <Link to="https://techpath-insights.netlify.app/" target="_blank">
+              <Link to="#" target="_blank">
                 <button className={classes.custom_btn}>View Docs</button>
               </Link>
             </div>
@@ -185,16 +182,10 @@ const ProjectMain = () => {
               website to practice, I completed it in few hours.
             </p>
             <div className={classes.action_btn_wrapper}>
-              <Link
-                to="https://davidmicah123.github.io/Huddle-Project/"
-                target="_blank"
-              >
+              <Link to="#" target="_blank">
                 <button className={classes.custom_btn}>Preview</button>
               </Link>
-              <Link
-                to="https://github.com/davidmicah123/Huddle-Project"
-                target="_blank"
-              >
+              <Link to="https://avero.netlify.app/" target="_blank">
                 <button className={classes.custom_btn}>View Docs</button>
               </Link>
             </div>
