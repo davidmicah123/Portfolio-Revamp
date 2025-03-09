@@ -5,6 +5,7 @@ import huddle from "../../Assets/Images/huddle_webpage.png";
 import foodmania from "../../Assets/Images/foodmania-screenshot.png"
 import techpathinsight from "../../Assets/Images/techpath-insight-screenshot.png"
 import avero from "../../Assets/Images/avero-screenshot.png"
+import  soccerverse from "../../Assets/Images/soccerverse-screenshot.png"
 import { Link } from "react-router-dom";
 
 const ProjectMain = () => {
@@ -49,7 +50,7 @@ const ProjectMain = () => {
         </div>
         <div className={classes.project_card}>
           <div className={classes.project_img_wrapper}>
-            <img src={huddle} alt="" className={classes.project_img} />
+            <img src={soccerverse} alt="" className={classes.project_img} />
           </div>
           <div className={classes.project_description_area}>
             <h1>Soccer Verse</h1>
