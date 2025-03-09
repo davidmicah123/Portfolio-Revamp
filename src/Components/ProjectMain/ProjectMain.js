@@ -26,7 +26,7 @@ const ProjectMain = () => {
             <p>
               A practice project I built in 2022 to practice HTML and CSS and
               just my knoledge of css styling and positioning, A sinle page
-              website to practice, I completed it in few hours. 
+              website to practice, I completed it in few hours.
             </p>
             <div className={classes.action_btn_wrapper}>
               <Link
@@ -53,7 +53,7 @@ const ProjectMain = () => {
             <p>
               A practice project I built in 2022 to practice HTML and CSS and
               just my knoledge of css styling and positioning, A sinle page
-              website to practice, I completed it in few hours. 
+              website to practice, I completed it in few hours.
             </p>
             <div className={classes.action_btn_wrapper}>
               <Link
@@ -80,11 +80,11 @@ const ProjectMain = () => {
             <p>
               A practice project I built in 2022 to practice HTML and CSS and
               just my knoledge of css styling and positioning, A sinle page
-              website to practice, I completed it in few hours. 
+              website to practice, I completed it in few hours.
             </p>
             <div className={classes.action_btn_wrapper}>
               <Link
-                to="https://davidmicah123.github.io/Huddle-Project/"
+                to="https://github.com/davidmicah123/TravelSmart"
                 target="_blank"
               >
                 <button className={classes.custom_btn}>Preview</button>
@@ -107,7 +107,7 @@ const ProjectMain = () => {
             <p>
               A practice project I built in 2022 to practice HTML and CSS and
               just my knoledge of css styling and positioning, A sinle page
-              website to practice, I completed it in few hours. 
+              website to practice, I completed it in few hours.
             </p>
             <div className={classes.action_btn_wrapper}>
               <Link
@@ -116,10 +116,7 @@ const ProjectMain = () => {
               >
                 <button className={classes.custom_btn}>Preview</button>
               </Link>
-              <Link
-                to="https://github.com/davidmicah123/Huddle-Project"
-                target="_blank"
-              >
+              <Link to="https://techpath-insights.netlify.app/" target="_blank">
                 <button className={classes.custom_btn}>View Docs</button>
               </Link>
             </div>
@@ -134,19 +131,16 @@ const ProjectMain = () => {
             <p>
               A practice project I built in 2022 to practice HTML and CSS and
               just my knoledge of css styling and positioning, A sinle page
-              website to practice, I completed it in few hours. 
+              website to practice, I completed it in few hours.
             </p>
             <div className={classes.action_btn_wrapper}>
               <Link
-                to="https://davidmicah123.github.io/Huddle-Project/"
+                to="https://github.com/davidmicah123/foodmania"
                 target="_blank"
               >
                 <button className={classes.custom_btn}>Preview</button>
               </Link>
-              <Link
-                to="https://github.com/davidmicah123/Huddle-Project"
-                target="_blank"
-              >
+              <Link to="https://foodmania-dmd.netlify.app/" target="_blank">
                 <button className={classes.custom_btn}>View Docs</button>
               </Link>
             </div>
@@ -188,7 +182,7 @@ const ProjectMain = () => {
             <p>
               A practice project I built in 2022 to practice HTML and CSS and
               just my knoledge of css styling and positioning, A sinle page
-              website to practice, I completed it in few hours. 
+              website to practice, I completed it in few hours.
             </p>
             <div className={classes.action_btn_wrapper}>
               <Link
@@ -206,8 +200,6 @@ const ProjectMain = () => {
             </div>
           </div>
         </div>
-
-
       </div>
 
       <div className={classes.project_nav_icons_wrapper}>
