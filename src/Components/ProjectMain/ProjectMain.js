@@ -7,6 +7,7 @@ import techpathinsight from "../../Assets/Images/techpath-insight-screenshot.png
 import avero from "../../Assets/Images/avero-screenshot.png"
 import  soccerverse from "../../Assets/Images/soccerverse-screenshot.png"
 import { Link } from "react-router-dom";
+import travelsmart from "../../Assets/Images/travelsmart-screenshot.png"
 
 const ProjectMain = () => {
   return (
@@ -77,7 +78,7 @@ const ProjectMain = () => {
         </div>
         <div className={classes.project_card}>
           <div className={classes.project_img_wrapper}>
-            <img src={huddle} alt="" className={classes.project_img} />
+            <img src={travelsmart} alt="" className={classes.project_img} />
           </div>
           <div className={classes.project_description_area}>
             <h1>TravelSmart</h1>
@@ -94,7 +95,7 @@ const ProjectMain = () => {
                 <button className={classes.custom_btn}>Preview</button>
               </Link>
               <Link
-                to="https://github.com/davidmicah123/Huddle-Project"
+                to="https://github.com/davidmicah123/TravelSmart"
                 target="_blank"
               >
                 <button className={classes.custom_btn}>View Docs</button>
