@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./ProjectMain.module.css";
 import project_img from "../../Assets/Images/project_img.png";
 import huddle from "../../Assets/Images/huddle_webpage.png";
+import foodmania from "../../Assets/Images/foodmania-screenshot.png"
 import { Link } from "react-router-dom";
 
 const ProjectMain = () => {
@@ -121,7 +122,7 @@ const ProjectMain = () => {
         </div>
         <div className={classes.project_card}>
           <div className={classes.project_img_wrapper}>
-            <img src={huddle} alt="" className={classes.project_img} />
+            <img src={foodmania} alt="" className={classes.project_img} />
           </div>
           <div className={classes.project_description_area}>
             <h1>Foodmania</h1>
