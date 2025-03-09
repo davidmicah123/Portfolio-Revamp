@@ -63,14 +63,14 @@ const ContactForm = () => {
                 <li>
                   <ion-icon name="logo-whatsapp"></ion-icon>
                   <Link to="https://wa.link/utqwmz" target="blank">
-                    <p>+234 703-532-6207</p>
+                    <p>+234 703 532 6207</p>
                   </Link>
                 </li>
                 <li>
                   <ion-icon name="logo-whatsapp"></ion-icon>
                   <Link to="https://wa.link/teqlws" target="blank">
-                    <p>+234 913-185-8421</p>
-                  </Link>   
+                    <p>+234 913 185 8421</p>
+                  </Link>
                 </li>
               </ul>
             </li>
