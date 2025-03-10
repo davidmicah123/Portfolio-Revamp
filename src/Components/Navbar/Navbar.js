@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import classes from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import MobileNav from "../../Components/MobileNav/MobileNav";
+import { HashLink as ScrollLink } from "react-router-hash-link";
+
 
 const Navbar = () => {
   const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
@@ -25,7 +27,9 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/#about">About</Link>
+            <ScrollLink smooth to="/#about">
+              About
+            </ScrollLink>
           </li>
           <li>
             <Link to="/Projects">Projects</Link>
